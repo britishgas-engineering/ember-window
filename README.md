@@ -6,21 +6,21 @@ Usage is the same as for the javascript `window` Object:
 
 instead of:
 
-`````
+```
 window.location.href = '/Your_Account/Account_Details/';
-`````
+```
 
 use:
 
-`````
+```js
 window: Ember.inject.service(),
 ..
 this.get('window.location').href = '/Your_Account/Account_Details/';
-`````
+```
 
 In your tests, you can use something like:
 
-`````
+```js
 // tests/helpers/start-app.js
 export default function startApp(attrs) {
   let application;
@@ -50,5 +50,5 @@ export default function startApp(attrs) {
 
   return application;
 }
-`````
+```
 
