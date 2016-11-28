@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "",
+  "repository": "https://www.github.com/britishgas-engineering/ember-window",
   "engines": {
     "node": ">= 0.12.0"
   },
