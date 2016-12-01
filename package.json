@@ -6,12 +6,21 @@
     "doc": "doc",
     "test": "tests"
   },
+  "contributors": [{
+    "name": "Olivier Lesnicki",
+    "email": "olivier.lesnicki@gmail.com"
+  }, {
+    "name": "Lionel Viet"
+  }],
   "scripts": {
     "build": "ember build",
     "start": "ember server",
     "test": "ember try:each"
   },
-  "repository": "https://www.github.com/britishgas-engineering/ember-window",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/britishgas-engineering/ember-window",
+  },
   "engines": {
     "node": ">= 0.12.0"
   },
