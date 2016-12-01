@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://www.github.com/britishgas-engineering/ember-window",
+    "url": "https://www.github.com/britishgas-engineering/ember-window"
   },
   "engines": {
     "node": ">= 0.12.0"
