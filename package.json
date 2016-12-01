@@ -1,17 +1,20 @@
 {
   "name": "ember-window",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "contributors": [{
-    "name": "Olivier Lesnicki",
-    "email": "olivier.lesnicki@gmail.com"
-  }, {
-    "name": "Lionel Viet"
-  }],
+  "contributors": [
+    {
+      "name": "Olivier Lesnicki",
+      "email": "olivier.lesnicki@gmail.com"
+    },
+    {
+      "name": "Lionel Viet"
+    }
+  ],
   "scripts": {
     "build": "ember build",
     "start": "ember server",
